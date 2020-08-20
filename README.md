@@ -1,1 +1,3 @@
 # CDN
+此项目包含大部分焰狐工作室flarefox.cn的非WordPress原生脚本和文件
+具体的引用细节请查看footer与header，或等待哔哩哔哩教程

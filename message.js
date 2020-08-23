@@ -20,7 +20,7 @@ String.prototype.renderTip = function (context) {
     return renderTip(this, context);
 };
 
-var re = '啊呜!大以巴狼艾斯冒出来了哦w\n本页面由兰德互娱强力驱动';
+var re = '啊呜!大以巴狼艾斯冒出来了哦w\n感谢浏览焰狐工作室的主页~\n本页面由山东兰德互娱强力驱动';
 console.log(re);
 re.toString = function() {
     showMessage('略~这里什么都没有', 5000);
@@ -92,7 +92,7 @@ initTips();
             } else if (now > 21 && now <= 23) {
                 text = '已经这么晚了呀，早点休息吧，安安ww';
             } else {
-                text = '嗨~ 快来逗我玩吧！';
+                text = '嗨~ 快来玩吧！';
             }
         }else {
             text = '欢迎阅读<span style="color:#0099cc;">「 ' + document.title.split(' - ')[0] + ' 」</span>';
@@ -105,7 +105,7 @@ window.setInterval(showHitokoto,50000);
 
 function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
-      showMessage('偶尔休息一下吧', 5000);
+      showMessage('偶尔休息一下吧, 别总盯着屏幕了', 5000);
         //防喝茶 showMessage(result.hitokoto, 5000);
     });
 }

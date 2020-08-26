@@ -20,7 +20,7 @@ String.prototype.renderTip = function (context) {
     return renderTip(this, context);
 };
 
-var re = '啊呜!大以巴狼艾斯冒出来了哦w\n感谢浏览焰狐工作室的主页~\n本页面由山东兰德互娱强力驱动';
+var re = '\n';
 console.log(re);
 re.toString = function() {
     showMessage('略~这里什么都没有', 5000);
@@ -56,6 +56,10 @@ function initTips(){
         }
     });
 }
+console.warn("%c 本站由山东兰德互娱提供技术支持及服务器托管", "color:black;font-weight:bold;font-size:2em");
+console.log("%c 咦, 又有人打开这个网页了", "color:orange;font-weight:bold;font-size:2em");
+console.log("%c 好麻烦, 又要开始营业了", "color:blue;font-weight:bold;font-size:2em");
+console.log("%c ", "background: url(https://s1.ax1x.com/2020/08/26/dRH04e.png) no-repeat center;padding-left:300px;padding-bottom: 300px");
 initTips();
 
 (function (){
@@ -107,6 +111,7 @@ function showHitokoto(){
     $.getJSON('https://v1.hitokoto.cn/',function(result){
       showMessage('偶尔休息一下吧, 别总盯着屏幕了', 5000);
         //防喝茶 showMessage(result.hitokoto, 5000);
+        console.error(result.hitokoto);
     });
 }
 

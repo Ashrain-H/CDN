@@ -56,7 +56,7 @@ function initTips(){
         }
     });
 }
-console.warn("%c 本站由山东兰德互娱提供技术支持及服务器托管", "color:black;font-weight:bold;font-size:2em");
+console.warn("%c -本站由山东兰德互娱提供技术支持及页面托管-", "color:black;font-weight:bold;font-size:2em");
 console.log("%c 咦, 又有人打开这个网页了", "color:orange;font-weight:bold;font-size:2em");
 console.log("%c 好麻烦, 又要开始营业了", "color:blue;font-weight:bold;font-size:2em");
 console.log("%c ", "background: url(https://s1.ax1x.com/2020/08/26/dRH04e.png) no-repeat center;padding-left:300px;padding-bottom: 300px");

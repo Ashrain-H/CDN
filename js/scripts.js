@@ -1,9 +1,3 @@
-/*!
- * Author: Mashiro
- * Site: https://2heng.xin
- * License: MIT
- */
-"use strict";
 
 var Arknights = {
 	F_NORMALIZE: function () {
